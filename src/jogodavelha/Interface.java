@@ -1,9 +1,5 @@
 package jogodavelha;
 
-/**
- *
- * @author Maik Basso
- */
 public class Interface extends javax.swing.JDialog {
     private boolean jogador1, jogador2;
     private String marcacao;
@@ -99,7 +95,7 @@ public class Interface extends javax.swing.JDialog {
 
         PainelBotoes.setLayout(new java.awt.GridLayout(3, 3, -1, -1));
 
-        jB00.setBackground(new java.awt.Color(51, 153, 255));
+        jB00.setBackground(new java.awt.Color(51, 143, 255));
         jB00.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         jB00.setForeground(new java.awt.Color(255, 255, 255));
         jB00.setToolTipText("");
@@ -218,7 +214,7 @@ public class Interface extends javax.swing.JDialog {
 
         jMenuItem1.setAccelerator(
                 javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_N, java.awt.event.InputEvent.CTRL_MASK));
-        jMenuItem1.setText("Novo");
+        jMenuItem1.setText("Novo Jogo");
         jMenuItem1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jMenuItem1MouseClicked(evt);
